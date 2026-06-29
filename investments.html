@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Investments — Independent Sponsors</title>
+  <meta name="description" content="Selected investments and track record of Independent Sponsors, an independent sponsor." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html">Independent Sponsors<span>.</span></a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="approach.html">Approach</a></li>
+        <li><a href="investments.html" aria-current="page">Investments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="page-intro">
+    <div class="wrap">
+      <span class="eyebrow">Investments</span>
+      <h1>A selection of the businesses we've backed.</h1>
+      <p>Each represents a partnership — with owners, management, and capital partners who share our long view.</p>
+    </div>
+  </div>
+
+  <!-- ============ DEALS ============ -->
+  <section>
+    <div class="wrap">
+      <div class="deals">
+
+        <!-- Repeat one .deal block per investment. Delete the placeholders
+             you don't need. If a company name is confidential, use a
+             descriptor instead, e.g. "A regional logistics business". -->
+
+        <article class="deal">
+          <div>
+            <h3>[Company Name]</h3>
+            <div class="sector">[Sector]</div>
+          </div>
+          <p>[One or two sentences: what the business does and the nature of your involvement or what you helped achieve.]</p>
+          <div class="status">[Current]</div>
+        </article>
+
+        <article class="deal">
+          <div>
+            <h3>[Company Name]</h3>
+            <div class="sector">[Sector]</div>
+          </div>
+          <p>[One or two sentences describing the business and your role.]</p>
+          <div class="status">[Current]</div>
+        </article>
+
+        <article class="deal">
+          <div>
+            <h3>[Company Name]</h3>
+            <div class="sector">[Sector]</div>
+          </div>
+          <p>[One or two sentences describing the business and your role.]</p>
+          <div class="status">[Realised]</div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FALLBACK / CONFIDENTIALITY NOTE ============ -->
+  <section class="alt">
+    <div class="wrap">
+      <div class="prose">
+        <p>[Optional note — useful if some or all investments are confidential. For example: "Out of respect for our partners, not every transaction is listed publicly. We're glad to discuss our full track record directly."]</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <h2>Want to know more about our track record?</h2>
+      <p>We're happy to walk through it in a confidential conversation.</p>
+      <a class="btn" href="contact.html">Get in touch</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>&copy; <span id="year"></span> Independent Sponsors. All rights reserved.</div>
+      <ul class="footer-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="investments.html">Investments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
