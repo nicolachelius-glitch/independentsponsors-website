@@ -77,7 +77,15 @@ body {
 .nav { display: flex; align-items: center; justify-content: space-between; height: 80px; }
 
 .brand { display: flex; align-items: center; gap: 0.65rem; text-decoration: none; }
-.brand .monogram { width: 32px; height: 32px; flex: none; }
+.brand .monogram {
+  font-family: var(--sans);
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  color: #fff;
+  line-height: 1;
+  flex: none;
+}
 .brand .wordmark {
   font-family: var(--sans);
   font-weight: 600;
