@@ -23,7 +23,7 @@ and replace with real content. The big ones:
 
 - **`[Firm Name]` / `[Firm]`** — appears in the nav brand, titles, and footer of
   every page. Do a find-and-replace across all files.
-- **`independent-sponsors.co.za`** and the `[name1]` / `[name2]` email addresses on
+- **`[firmdomain].co.za`** and the `[name1]` / `[name2]` email addresses on
   `contact.html` — set these to their real addresses.
 - **Bios** on `about.html`, **criteria** on `approach.html`, **deals** on
   `investments.html`.
