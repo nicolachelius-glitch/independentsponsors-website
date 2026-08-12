@@ -221,6 +221,9 @@ section.alt .facts div { background: var(--white); }
   color: var(--blue); margin-top: 0.3rem;
 }
 .deal p { color: var(--ink); font-size: 0.98rem; }
+.deal .deal-desc p { margin-bottom: 0.7rem; }
+.deal .deal-desc p:last-child { margin-bottom: 0; }
+.deal .deal-desc p + p { color: var(--slate); font-size: 0.92rem; }
 .deal .status {
   font-size: 0.76rem; letter-spacing: 0.08em; text-transform: uppercase;
   color: var(--slate); white-space: nowrap; justify-self: end;
