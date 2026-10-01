@@ -145,7 +145,7 @@ body {
   opacity: 0.06; pointer-events: none; z-index: 0;
 }
 .hero .wrap { position: relative; z-index: 1; }
-.hero-emblem { width: 140px; height: 140px; margin-bottom: 2rem; display: block; }
+.hero-emblem { width: 200px; height: 200px; margin-bottom: 2rem; display: block; }
 .hero h1 {
   font-family: var(--serif); font-weight: 500;
   font-size: clamp(2.8rem, 7vw, 5.4rem); line-height: 1.02;
